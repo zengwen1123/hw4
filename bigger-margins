@@ -1,0 +1,11 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(255);
+
+  for (var x = 66; x < width-66; x = x + 66) {
+    line(x, height/2, mouseX, mouseY);
+  }
+}
